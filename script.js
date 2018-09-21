@@ -19,7 +19,7 @@ const getDay = (num) => {
 }
 
 function getWeather () {
-  const url = "http://api.openweathermap.org/data/2.5/forecast?q=Yogyakarta&appid=ed91a33b0e8a45877979a7794852a2ac&units=metric"
+  const url = "https://api.openweathermap.org/data/2.5/forecast?q=Yogyakarta&appid=ed91a33b0e8a45877979a7794852a2ac&units=metric"
 
   fetch(url)
   .then(response => {
