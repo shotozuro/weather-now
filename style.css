@@ -1,0 +1,64 @@
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+  text-align: center;
+}
+#board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px 10px 15px 10px;
+  margin: 3px;
+  min-width: 210px;
+  background-color: #ffffff;
+  border: 1px solid grey;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.weather-img {
+  max-width: 100%;
+}
+
+.weather-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.row-label {
+  padding: 0px 5px 0px 5px;
+  text-align: center;
+}
+
+#city {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.city-name {
+  font-size: 24pt;
+  text-align: center;
+}
+
+.coord {
+  font-size: 12pt;
+}
+.list {
+  margin-top: 10px;
+}
+.temperature-avg {
+  font-size: 20pt;
+}
